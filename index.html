@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Document HTML</title>
+   <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+   <header class="header">
+      <nav class="header__nav">
+         <ul class="header__links">
+            <li class="header__link"><a href="#about">About</a></li>
+            <li class="header__link"><a>Education</a></li>
+            <li class="header__link"><a>Works</a></li>
+            <li class="header__link"><a href="#contacts">Contact</a></li>
+         </ul>
+      </nav>
+   </header>
+   <main class="main">
+      <section class="description">
+         <h1 class="description__title">Elena Maslovskaya</h1>
+         <p class="description__subtitle">-Web-Developer-</p>
+         <img class="description__foto" src="/images/Bild_1.jpg" alt="Foto">
+         <div class="about" id="about">
+            <h2 class="about__title">About me</h2>
+            <p class="about__description">Hello! I am a beginner web developer. I welcome you to my page. I live and
+               study in Germany, I aspire to become a professional in web development</p>
+         </div>
+         <div class="contacts" id="contacts">
+            <h2 class="contacts__title">Contacts:</h2>
+            <ul class="contacts__list">
+               <li class="contacts__item"><img class="contacts__icon" src="/images/email.svg" alt="email">
+                  <p class="contacts__description">email@web.com</p>
+               </li>
+               <li class="contacts__item"><img class="contacts__icon" src="/images/telephone.svg" alt="phone"
+                     class="contacts__description">
+                  <p>+1234567890</p>
+               </li>
+            </ul>
+         </div>
+         <div class="languages">
+            <h2 class="languages__title">Languages:</h2>
+            <ul class="languages__list">
+               <li class="languages__item">Russian (nativ)</li>
+               <li class="languages__item">Germany (C1)</li>
+               <li class="languages__item">English (A2)</li>
+            </ul>
+         </div>
+      </section>
+      <section class="professionally">
+         <div>
+            <h2 class="professionally__title">Education</h2>
+            <ul class="education__list">
+               <li class="education__item"><b>from 05.12.2022:</b> Frontend-developer, RS-Scool, Minsk, Belarus</li>
+               <li class="education__item"><b>from 01.12.2021:</b> Web-application-developer (studying now), Dortmund,
+                  Germany</li>
+               <li class="education__item"><b>2021-2022:</b> Web-Developr, Diploma, Yandex.Practicum, Moskow, Russia
+               </li>
+               <li class="education__item"><b>2009-2011:</b> College, Chemistry, Ellwangen, Germany</li>
+               <li class="education__item"><b>1999-2003:</b> Tomsk State University, Faculty of Radiophysics, Tomsk,
+                  Russia</li>
+            </ul>
+         </div>
+         <div>
+            <h2 class="professionally__title">Skills</h2>
+            <ul class="professionally__skills">
+               <li class="professionally__skill">HTML5</li>
+               <li class="professionally__skill">CSS3</li>
+               <li class="professionally__skill">Javascript</li>
+               <li class="professionally__skill">Typescript</li>
+               <li class="professionally__skill">React</li>
+               <li class="professionally__skill">Node.js</li>
+               <li class="professionally__skill">Git</li>
+               <li class="professionally__skill">Webpack</li>
+            </ul>
+         </div>
+         <div>
+            <h2 class="professionally__title">Code Example</h2>
+            <pre>
+               <code>
+   let ausgabe;
+   const steuerung = "formell";
+   
+   if (steuerung == "formell")
+      ausgabe = "Guten Tag, "
+   else
+      ausgabe = "Hallo, "
+         
+   ausgabe = ausgabe + "Welt!"
+   console.log(ausgabe);
+               </code>
+            </pre>
+         </div>
+      </section>
+   </main>
+   <footer class="footer">
+      <a href="https://ElenaMaslovskaya.github.io/rsschool-cv/cv" target="_blank">
+         <img class="footer__icon" src="/images/GitHub-Logo.wine.svg" alt="github">
+      </a>
+      <span>&copy2022</span>
+      <a href="https://rs.school/js/" target="_blank">
+         <img class="footer__logo" src="https://rs.school/images/rs_school_js.svg" alt="logo">
+      </a>
+   </footer>
+   <script src="js/scripts.js"></script>
+</body>
+
+</html>
